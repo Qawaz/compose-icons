@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="materialdesignicons-js-1.0.1">
+    <output-path>$PROJECT_DIR$/materialdesignicons/build/libs</output-path>
+    <root id="archive" name="materialdesignicons-js-1.0.1.jar">
+      <element id="module-output" name="compose-icons.materialdesignicons.jsMain" />
+    </root>
+  </artifact>
+</component>

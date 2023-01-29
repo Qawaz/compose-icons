@@ -6,7 +6,8 @@ buildscript {
     }
     dependencies {
         val kotlinVersion = property("kotlin.version")
-        classpath("com.android.tools.build:gradle:7.3.1")
+        val apgVersion = property("agp.version")
+        classpath("com.android.tools.build:gradle:$apgVersion")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion")
         classpath("org.jetbrains.kotlin:kotlin-serialization:$kotlinVersion")
     }

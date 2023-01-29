@@ -10,7 +10,7 @@ import java.util.*
 
 object Publish {
     val groupId = "com.wakaztahir.compose-icons"
-    val version = "1.0.0"
+    val version = "1.0.1"
 }
 
 fun MavenPublication.setupPom(project: Project) {

@@ -70,11 +70,11 @@ kotlin {
                 api("androidx.core:core-ktx:1.9.0")
             }
         }
-        val androidTest by getting {
-            dependencies {
-                implementation("junit:junit:4.13.2")
-            }
-        }
+//        val androidTest by getting {
+//            dependencies {
+//                implementation("junit:junit:4.13.2")
+//            }
+//        }
         val desktopMain by getting {
             dependencies {
                 api(compose.preview)
@@ -89,7 +89,6 @@ android {
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
