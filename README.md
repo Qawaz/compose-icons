@@ -17,7 +17,7 @@ You can also convert SVGs & Drawables to Compose ImageVector
 Add the project repository:
 ```kotlin
 repositories {
-    mavenCentral()
+    githubPackagesRepository() // google how to set it up , or check project's buildSrc
 }
 ```
 
