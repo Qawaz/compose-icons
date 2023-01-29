@@ -46,11 +46,9 @@ android {
     }
 }
 
-val javadocJar = tasks.register("javadocJar", Jar::class.java) {
-    archiveClassifier.set("javadoc")
-}
+
 
 afterEvaluate {
     setupSigning()
-    applyPomToAllMavenPublications(javadocJar)
+    applyPomToAllMavenPublications()
 }

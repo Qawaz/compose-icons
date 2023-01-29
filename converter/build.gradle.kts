@@ -42,7 +42,3 @@ android {
         minSdk = 21
     }
 }
-
-val javadocJar = tasks.register("javadocJar", Jar::class.java) {
-    archiveClassifier.set("javadoc")
-}

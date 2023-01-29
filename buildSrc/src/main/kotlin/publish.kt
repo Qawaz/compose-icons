@@ -3,8 +3,6 @@ import org.gradle.api.artifacts.dsl.RepositoryHandler
 import org.gradle.api.artifacts.repositories.PasswordCredentials
 import org.gradle.api.publish.PublishingExtension
 import org.gradle.api.publish.maven.MavenPublication
-import org.gradle.api.tasks.TaskProvider
-import org.gradle.api.tasks.bundling.Jar
 import java.io.File
 import java.util.*
 
@@ -43,14 +41,14 @@ fun MavenPublication.setupPom(project: Project) {
     }
 }
 
-fun Project.applyPomToAllMavenPublications(javadocJar: TaskProvider<Jar>) {
+fun Project.applyPomToAllMavenPublications() {
     setupGithubPublication()
     (this as org.gradle.api.plugins.ExtensionAware)
         .extensions
         .configure<PublishingExtension>("publishing") {
             publications {
                 filterIsInstance<MavenPublication>().forEach { publication ->
-                    publication.artifact(javadocJar)
+//                    publication.artifact(javadocJar)
                     publication.setupPom(project)
                 }
             }
