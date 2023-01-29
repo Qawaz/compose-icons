@@ -2,7 +2,11 @@
 
 Compose icons is a pack of libraries that provide well known Icon Packs to use in Jetpack Compose Multiplatform. The library usage is inspired by Compose Material Icons.
 
-![](https://user-images.githubusercontent.com/29736164/111044124-6b131080-8425-11eb-9b03-0d3b409377a5.png)
+In the demo App you can search for icons and see how to include them
+![](./demo/desktop/screenshots/1.PNG)
+
+You can also convert SVGs & Drawables to Compose ImageVector 
+![](./demo/desktop/screenshots/2.PNG)
 
 ## Compose versions
 
@@ -18,12 +22,12 @@ repositories {
 ```
 
 ```kotlin
-implementation("br.com.devsrsouza.compose.icons.jetbrains:ICON_PACK:1.0.0")
+implementation("com.wakaztahir.compose-icons:ICON_PACK:1.0.0")
 ```
 
 ** `ICON_PACK` is a placeholder, you should replace it with your icon pack of choice.
 
-example: `br.com.devsrsouza.compose.icons.android:simple-icons:1.0.0`
+example: `com.wakaztahir.compose-icons:simple-icons:1.0.0`
 
 ## Example
 
@@ -35,19 +39,25 @@ Icon(
 
 ## Icon Packs
 
-| Icon pack                                                                     | Icon Version    | Dependency                  | All Icons Docs                                     |
-|-------------------------------------------------------------------------------|-----------------|-----------------------------|----------------------------------------------------|
-| [Simple-Icons](https://simpleicons.org/)                                      | 4.14.0          | `simple-icons`              | [docs](simple-icons/DOCUMENTATION.md)              |
-| [Feather](https://feathericons.com/)                                          | 4.28.0          | `feather`                   | [docs](feather/DOCUMENTATION.md)                   |
-| [Tabler Icons](https://tabler-icons.io/)                                      | 1.39.1          | `tabler-icons`              | [docs](tabler-icons/DOCUMENTATION.md)              |
-| [Eva Icons](https://akveo.github.io/eva-icons/#/)                             | 1.1.3           | `eva-icons`                 | [docs](eva-icons/DOCUMENTATION.md)                 |
-| [Font Awesome](https://fontawesome.com/)                                      | 5.15.2          | `font-awesome`              | [docs](font-awesome/DOCUMENTATION.md)              |
-| [Octicons](https://primer.style/octicons/)                                    | 12.1.0          | `octicons`                  | [docs](octicons/DOCUMENTATION.md)                  |
-| [Linea](http://www.linea.io/)                                                 | 1.0             | `linea`                     | [docs](linea/DOCUMENTATION.md)                     |
-| [Line Awesome](https://icons8.com/line-awesome)                               | 1.3.0 (a60f113) | `line-awesome`              | [docs](line-awesome/DOCUMENTATION.md)              |
-| [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 2.0.12          | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
-| [css.gg](https://css.gg/)                                                     | 2.0.0           | `css-gg`                    | [docs](css-gg/DOCUMENTATION.md)                    |
-| [MaterialDesignIcons](https://materialdesignicons.com/)                       | 1c3c13e         | `materialdesignicons`       | [docs](materialdesignicons/DOCUMENTATION.md)       |
+
+| Icon pack                                                                     | Last Updated | Dependency                  | All Icons Docs                                     |
+|-------------------------------------------------------------------------------|--------------|-----------------------------|----------------------------------------------------|
+| [Simple-Icons](https://simpleicons.org/)                                      | 20/01/2023   | `simple-icons`              | [docs](simple-icons/DOCUMENTATION.md)              |
+| [Feather](https://feathericons.com/)                                          | 20/01/2023   | `feather`                   | [docs](feather/DOCUMENTATION.md)                   |
+| [Tabler Icons](https://tabler-icons.io/)                                      | 20/01/2023   | `tabler-icons`              | [docs](tabler-icons/DOCUMENTATION.md)              |
+| [Eva Icons](https://akveo.github.io/eva-icons/#/)                             | 20/01/2023   | `eva-icons`                 | [docs](eva-icons/DOCUMENTATION.md)                 |
+| [Font Awesome](https://fontawesome.com/)                                      | 20/01/2023   | `font-awesome`              | [docs](font-awesome/DOCUMENTATION.md)              |
+| [Weather Icons by Erik Flowers](https://github.com/erikflowers/weather-icons) | 20/01/2023   | `erikflowers-weather-icons` | [docs](erikflowers-weather-icons/DOCUMENTATION.md) |
+| [Line Awesome](https://icons8.com/line-awesome)                               | 20/01/2023   | `line-awesome`              | [docs](line-awesome/DOCUMENTATION.md)              |
+| [Linea](http://www.linea.io/)                                                 | 20/01/2023   | `linea`                     | [docs](linea/DOCUMENTATION.md)                     |
+| [Octicons](https://primer.style/octicons/)                                    | 20/01/2023   | `octicons`                  | [docs](octicons/DOCUMENTATION.md)                  |
+| [css.gg](https://css.gg/)                                                     | 20/01/2023   | `css-gg`                    | [docs](css-gg/DOCUMENTATION.md)                    |
+| [MaterialDesignIcons](https://materialdesignicons.com/)                       | 20/01/2023   | `materialdesignicons`       | [docs](materialdesignicons/DOCUMENTATION.md)       |
+| [Phosphor Icons](https://materialdesignicons.com/)                            | 20/01/2023   | `phosphor-icons`            | [docs](phosphor-icons/DOCUMENTATION.md)            |
+| [Remix Icons](https://materialdesignicons.com/)                               | 20/01/2023   | `remix-icons`               | [docs](remix-icons/DOCUMENTATION.md)               |
+| [Ion Icons](https://materialdesignicons.com/)                                 | 20/01/2023   | `ion-icons`                 | [docs](ion-icons/DOCUMENTATION.md)                 |
+| [Fluent UI System Icons](https://materialdesignicons.com/)                    | 20/01/2023   | `fluentui-system-icons`     | [docs](fluentui-system-icons/DOCUMENTATION.md)     |
+| [Studio Icons](https://materialdesignicons.com/)                              | 20/01/2023   | `studio-icons`              | [docs](studio-icons/DOCUMENTATION.md)              |
 
 ## How the project works
 
